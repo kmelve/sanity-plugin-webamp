@@ -7,7 +7,7 @@
   "parts": [
     {
       "implements": "part:@sanity/base/tool",
-      "path": "./src/index.js"
+      "path": "index.js"
     }
   ]
 }
