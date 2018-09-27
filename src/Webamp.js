@@ -37,7 +37,16 @@ export default class Winamp extends Component {
       });
   };
 
-
+  componentWillUnmount() {
+    /* I have no idea what I'm doing */
+    this.state.webamp.store.dispatch({ type: "STOP" });
+    const webamp = document.getElementById("webamp");
+    const webampFileInput = document.getElementById("webamp-file-input");
+    ReactDOM.unmountComponentAtNode(webamp);
+    ReactDOM.unmountComponentAtNode(webampFileInput);
+    webamp.remove()
+    webampFileInput.remove();
+  }
   render() {
     return <div ref="webampContainer" id="webamp-container" />;
   }

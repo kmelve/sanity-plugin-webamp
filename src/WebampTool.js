@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
 import client from 'part:@sanity/base/client'
 import Webamp from 'webamp'
 
