@@ -1,5 +1,5 @@
 import React from 'react'
-export default () => (<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48'>
+export default () => (<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox="0 0 48 48">
 <defs>
     <linearGradient x1='8.445' y1='8.443' x2='73.332' y2='73.334' gradientUnits='userSpaceOnUse'
     id='a'>
